@@ -41,9 +41,9 @@ function Create() {
       value.email.includes(".") &&
       value.date
     ) {
-      const data = [];
+      let data = [];
       if (localStorage.getItem("data") !== null) {
-        data.push(localStorage.getItem("data"));
+        data = JSON.parse(localStorage.getItem("data")) || [];
       }
       data.push({
         ...value,
