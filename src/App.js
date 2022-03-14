@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
 import {
-  BrowserRouter,
+  HashRouter,
   Routes,
   Route,
 } from "react-router-dom";
@@ -11,13 +11,13 @@ import View from './View';
 
 function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
     <Routes>
       <Route path="/" element={<Homepage />}></Route>
       <Route path="/create" element={<Create />}></Route>
       <Route path="/view" element={<View />}></Route>
     </Routes>
-    </BrowserRouter>
+    </HashRouter>
     
   );
 }
