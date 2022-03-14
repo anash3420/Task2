@@ -1,8 +1,8 @@
 {
   "name": "task-2",
   "version": "0.1.0",
-  "private": true,
-  "homepage": "https://anash3420.github.io",
+  "private": false,
+  "homepage": "https://anash3420.github.io/Task2",
   "dependencies": {
     "@emotion/react": "^11.8.2",
     "@emotion/styled": "^11.8.1",

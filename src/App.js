@@ -11,7 +11,7 @@ import View from './View';
 
 function App() {
   return (
-    <BrowserRouter basename='https://anash3420.github.io/Task2'>
+    <BrowserRouter basename={process.env.PUBLIC_URL}>
     <Routes>
       <Route path="/" element={<Homepage />}></Route>
       <Route path="/create" element={<Create />}></Route>
